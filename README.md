@@ -1,8 +1,3 @@
----
-title: "PERIOD VITS: VARIATIONAL INFERENCE WITH EXPLICIT PITCH MODELING FOR END-TO-END EMOTIONAL SPEECH SYNTHESIS"
-layout: default
----
-
 # Authors
 - Yuma Shirahata
 - Ryuichi Yamamoto
