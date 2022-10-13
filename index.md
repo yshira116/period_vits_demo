@@ -44,9 +44,6 @@ Experimental results showed that the proposed model over-performs baseline model
 
 ## Audio samples (Japanese)
 
-### Target speaker's reference
-
-
 ### Neutral style
 
 | Model            | Sample 1 (Female)             | Sample 2 (Male)            |
