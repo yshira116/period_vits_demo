@@ -80,3 +80,6 @@ Experimental results showed that the proposed model over-performs baseline model
 | **P-VITS**       | <audio controls src="./data/samples/fmkm_sad/phg_vits/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/phg_vits/mksk50951.wav"></audio> |
 | **FS2+P-HiFi-GAN**       | <audio controls src="./data/samples/fmkm_sad/ft_fs2phg/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/ft_fs2phg/mksk50951.wav"></audio> |
 | **Sine-P-VITS**       | <audio controls src="./data/samples/fmkm_sad/pin1phgvits/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/pin1phgvits/mksk50951.wav"></audio> |
+
+# Acknowledgements
+This work was supported by Clova Voice, NAVER Corp., Seongnam, Korea.
