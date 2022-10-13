@@ -1,6 +1,5 @@
-# period_vits_demo
 ---
-title: PERIOD VITS\: VARIATIONAL INFERENCE WITH EXPLICIT PITCH MODELING FOR END-TO-END EMOTIONAL SPEECH SYNTHESIS
+title: "PERIOD VITS: VARIATIONAL INFERENCE WITH EXPLICIT PITCH MODELING FOR END-TO-END EMOTIONAL SPEECH SYNTHESIS"
 layout: default
 ---
 
@@ -35,13 +34,10 @@ Experimental results showed that the proposed model over-performs baseline model
 
 # Demo
 
-## TTS system
-
-- **VC model:** Scyclone \[1\]
-- **Acoustic model:** FastSpeech 2 \[2\]
-- **Neural vocoder:** Harmonic-plus-noise Parallel WaveGAN \[3\]
-
 ## Models
+<div align="center">
+<img src="./data/img/models.png" width="900">
+</div>
 
 <!-- TODO: Add the table in paper -->
 
