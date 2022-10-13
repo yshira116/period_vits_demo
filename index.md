@@ -34,10 +34,16 @@ Experimental results showed that the proposed model over-performs baseline model
 
 # Demo
 
-## Models
-<div align="center">
-<img src="./data/img/models.png" width="900">
-</div>
+## Syetems
+The table below summarizes the systems for comparison. E2E: end-to-end model. FPN: frame prior network in VISinger \[1\]. FS2: FastSpeech2 \[2\]. P-VITS: Period VITS. Our proposed model. *: Not the same but a similar architecture.
+| Model  | Type  | Duration input | FPN | Pitch input | Periodicity generator input |
+|------------------|:--------------------:|:-------------------:|:--:|:--:|:--:|
+|       VITS \[3\]     | E2E | No | No | None | - |
+|       FPN-VITS | E2E | Yes | Yes | None | - |
+|       CAT-P-VITS | E2E | Yes | Yes | Frame-level to decoder | - |
+|       P-VITS | E2E | Yes | Yes | Sample-level to decoder | Sine-wave + V/UV + noise |
+|       FS2+P-HiFi-GAN \[4\] | Cascade | Yes | * | Sample-level to decoder | Sine-wave + V/UV + noise |
+|       Sine-P-VITS | E2E | Yes | Yes | Sample-level to decoder | Sine-wave|
 
 <!-- TODO: Add the table in paper -->
 
@@ -83,3 +89,9 @@ Experimental results showed that the proposed model over-performs baseline model
 
 # Acknowledgements
 This work was supported by Clova Voice, NAVER Corp., Seongnam, Korea.
+
+# References
+- \[1\]: Yongmao Zhang, Jian Cong, Heyang Xue, Lei Xie, Pengcheng Zhu, and Mengxiao Bi, “Visinger: Variational inference with adversarial learning for end-to-end singing voice synthesis,” in ICASSP, 2022, pp.7237–7241.
+- \[2\]: Yi Ren, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao and Tie-Yan Liu, “FastSpeech 2: Fast and high-quality end-to-end text-to-speech,” In Proc. ICLR, 2021.
+- \[3\]: Jaehyeon Kim, Jungil Kong, and Juhee Son, “Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech,” in Proc. ICML, 2021, pp. 5530–5540.
+- \[4\]: Jungil Kong, Jaehyeon Kim, and Jaekyoung Bae, “Hifi-gan: Generative adversarial networks for efficient and high fidelity speech synthesis,” in NeurIPS, 2020, pp. 17022–17033.
