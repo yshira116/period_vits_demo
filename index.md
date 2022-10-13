@@ -39,12 +39,12 @@ The table below summarizes the systems for comparison. E2E: end-to-end model. FP
 
 | Model  | Type  | Duration input | FPN | Pitch input | Periodicity generator input |
 |------------------|:--------------------:|:-------------------:|:--:|:--:|:--:|
-|       VITS \[3\]     | E2E | No | No | None | - |
-|       FPN-VITS | E2E | Yes | Yes | None | - |
-|       CAT-P-VITS | E2E | Yes | Yes | Frame-level to decoder | - |
-|       P-VITS | E2E | Yes | Yes | Sample-level to decoder | Sine-wave + V/UV + noise |
-|       FS2+P-HiFi-GAN \[4\] | Cascade | Yes | * | Sample-level to decoder | Sine-wave + V/UV + noise |
-|       Sine-P-VITS | E2E | Yes | Yes | Sample-level to decoder | Sine-wave |
+| **VITS** \[3\]     | E2E | No | No | None | - |
+| **FPN-VITS** | E2E | Yes | Yes | None | - |
+| **CAT-P-VITS** | E2E | Yes | Yes | Frame-level to decoder | - |
+| **P-VITS** | E2E | Yes | Yes | Sample-level to decoder | Sine-wave + V/UV + noise |
+| **FS2+P-HiFi-GAN** \[4\] | Cascade | Yes | * | Sample-level to decoder | Sine-wave + V/UV + noise |
+| **Sine-P-VITS** | E2E | Yes | Yes | Sample-level to decoder | Sine-wave |
 
 <!-- TODO: Add the table in paper -->
 
@@ -57,7 +57,7 @@ The table below summarizes the systems for comparison. E2E: end-to-end model. FP
 |------------------|:--------------------:|:-------------------:|
 | **Reference**       | <audio controls src="./data/samples/fmkm_neu/reference/fmkm03961.wav"></audio> | <audio controls src="./data/samples/mksk_neu/reference/mksk03951.wav"></audio> |
 | **VITS**       | <audio controls src="./data/samples/fmkm_neu/org_vits/fmkm03961.wav"></audio> | <audio controls src="./data/samples/mksk_neu/org_vits/mksk03951.wav"></audio> |
-| **FPN-P-VITS**       | <audio controls src="./data/samples/fmkm_neu/da_vits/fmkm03961.wav"></audio> | <audio controls src="./data/samples/mksk_neu/da_vits/mksk03951.wav"></audio> |
+| **FPN-VITS**       | <audio controls src="./data/samples/fmkm_neu/da_vits/fmkm03961.wav"></audio> | <audio controls src="./data/samples/mksk_neu/da_vits/mksk03951.wav"></audio> |
 | **CAT-P-VITS**       | <audio controls src="./data/samples/fmkm_neu/catpvits/fmkm03961.wav"></audio> | <audio controls src="./data/samples/mksk_neu/catpvits/mksk03951.wav"></audio> |
 | **P-VITS**       | <audio controls src="./data/samples/fmkm_neu/phg_vits/fmkm03961.wav"></audio> | <audio controls src="./data/samples/mksk_neu/phg_vits/mksk03951.wav"></audio> |
 | **FS2+P-HiFi-GAN**       | <audio controls src="./data/samples/fmkm_neu/ft_fs2phg/fmkm03961.wav"></audio> | <audio controls src="./data/samples/mksk_neu/ft_fs2phg/mksk03951.wav"></audio> |
@@ -69,7 +69,7 @@ The table below summarizes the systems for comparison. E2E: end-to-end model. FP
 |------------------|:--------------------:|:-------------------:|
 | **Reference**       | <audio controls src="./data/samples/fmkm_hap/reference/fmkm40951.wav"></audio> | <audio controls src="./data/samples/mksk_hap/reference/mksk40952.wav"></audio> |
 | **VITS**       | <audio controls src="./data/samples/fmkm_hap/org_vits/fmkm40951.wav"></audio> | <audio controls src="./data/samples/mksk_hap/org_vits/mksk40952.wav"></audio> |
-| **FPN-P-VITS**       | <audio controls src="./data/samples/fmkm_hap/da_vits/fmkm40951.wav"></audio> | <audio controls src="./data/samples/mksk_hap/da_vits/mksk40952.wav"></audio> |
+| **FPN-VITS**       | <audio controls src="./data/samples/fmkm_hap/da_vits/fmkm40951.wav"></audio> | <audio controls src="./data/samples/mksk_hap/da_vits/mksk40952.wav"></audio> |
 | **CAT-P-VITS**       | <audio controls src="./data/samples/fmkm_hap/catpvits/fmkm40951.wav"></audio> | <audio controls src="./data/samples/mksk_hap/catpvits/mksk40952.wav"></audio> |
 | **P-VITS**       | <audio controls src="./data/samples/fmkm_hap/phg_vits/fmkm40951.wav"></audio> | <audio controls src="./data/samples/mksk_hap/phg_vits/mksk40952.wav"></audio> |
 | **FS2+P-HiFi-GAN**       | <audio controls src="./data/samples/fmkm_hap/ft_fs2phg/fmkm40951.wav"></audio> | <audio controls src="./data/samples/mksk_hap/ft_fs2phg/mksk40952.wav"></audio> |
@@ -82,7 +82,7 @@ The table below summarizes the systems for comparison. E2E: end-to-end model. FP
 |------------------|:--------------------:|:-------------------:|
 | **Reference**       | <audio controls src="./data/samples/fmkm_sad/reference/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/reference/mksk50951.wav"></audio> |
 | **VITS**       | <audio controls src="./data/samples/fmkm_sad/org_vits/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/org_vits/mksk50951.wav"></audio> |
-| **FPN-P-VITS**       | <audio controls src="./data/samples/fmkm_sad/da_vits/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/da_vits/mksk50951.wav"></audio> |
+| **FPN-VITS**       | <audio controls src="./data/samples/fmkm_sad/da_vits/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/da_vits/mksk50951.wav"></audio> |
 | **CAT-P-VITS**       | <audio controls src="./data/samples/fmkm_sad/catpvits/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/catpvits/mksk50951.wav"></audio> |
 | **P-VITS**       | <audio controls src="./data/samples/fmkm_sad/phg_vits/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/phg_vits/mksk50951.wav"></audio> |
 | **FS2+P-HiFi-GAN**       | <audio controls src="./data/samples/fmkm_sad/ft_fs2phg/fmkm50953.wav"></audio> | <audio controls src="./data/samples/mksk_sad/ft_fs2phg/mksk50951.wav"></audio> |
