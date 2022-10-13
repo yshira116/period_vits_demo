@@ -35,7 +35,7 @@ Experimental results showed that the proposed model over-performs baseline model
 # Demo
 
 ## Systems
-The table below summarizes the systems for comparison. E2E: end-to-end model. FPN: frame prior network in VISinger \[1\]. FS2: FastSpeech2 \[2\]. P-VITS: Period VITS. Our proposed model. *: Not the same but a similar architecture.
+The table below summarizes the systems for comparison. E2E: end-to-end model. FPN: frame prior network in VISinger \[1\]. FS2: FastSpeech2 \[2\]. P-VITS: Period VITS (i.e. Our proposed model). *: Not the same but a similar architecture.
 
 | Model  | Type  | Duration input | FPN | Pitch input | Periodicity generator input |
 |------------------|:--------------------:|:-------------------:|:--:|:--:|:--:|
